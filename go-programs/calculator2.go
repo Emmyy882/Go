@@ -1,5 +1,3 @@
-//a program to calculate arithmetic operations based on user inputs
-
 package main
 
 import "fmt"
@@ -35,14 +33,12 @@ func main() {
 
 	} else if operator == "/" {
 
-		div := firstNum / secondNum
+		div := float64(firstNum / secondNum)
 		fmt.Println("Result of ", firstNum, " / ", secondNum, " = ", div)
-
 	} else if operator == "%" {
 
 		mod := firstNum % secondNum
 		fmt.Println("Result of ", firstNum, " % ", secondNum, " = ", mod)
-
 	} else {
 
 		fmt.Println("Operator mismatched")
