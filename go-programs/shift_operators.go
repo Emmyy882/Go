@@ -1,4 +1,4 @@
-//This program shows the usage of the bit shift and left operator
+//This program shows the usage of the bit shift right and left operator
 package main
 
 import "fmt"
