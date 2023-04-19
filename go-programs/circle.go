@@ -10,8 +10,8 @@ func main() {
 
 	var rad float32
 
-	fmt.Print("Enter value for radius: ")
-	fmt.Scanf("%f",&rad)
+	fmt.Print("Enter value for radius: ") //prompting user input for radius
+	fmt.Scanf("%f", &rad)                 //reading input from keyboard
 
 	area := math.Pi * rad * rad
 
