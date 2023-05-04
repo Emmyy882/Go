@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Println("Printing another type")
 
-	//another array example
+	//another example of array declaration and initialization
 	arr2 := [12]int{1, 4, 2, 6, 8, 3, 6, 5, 6, 82}
 
 	for j := 0; j < len(arr); j++ {
