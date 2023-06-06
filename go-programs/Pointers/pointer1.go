@@ -6,6 +6,7 @@ import "fmt"
 func main() {
 	var x int = 34
 
+	//declaring a pointer (y) that points to (x) using the (&) operator
 	var y *int = &x //y is a pointing storing the memory address of x
 
 	fmt.Println("value of x = ", x)
